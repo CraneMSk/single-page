@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: urt;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    background-image: url(https://preview.redd.it/is-it-worth-nano-machine-reading-v0-o983o9nidaka1.jpg?auto=webp&s=29b458c004fb645c7b962a299b0fb2b01af1da82);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flexbox  ;
+}
+
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dad6d6;
+    color: rgb(0, 0, 0);
+    border: hwb(110 0% 0%);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 47%;
+    
+    
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.column{
+    background-color: #33333396;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+/* Estilos responsivos com breakpoints */
+
+@media(max-width: 320px) {
+    .column{
+        flex: 1 1 100%;
+        background-color: chartreuse;
+    }
+    .header{
+        color: red;
+        background-color: #ffffff;
+    }
+    .header h1{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .column{
+    flex: 1 1 100%;
+    background-color: rgba(15, 15, 15, 0.596);
+    }
+    .header h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .main-content{
+        flex-direction: column;
+    }
+    .column{
+        flex: 1 1 100%;
+    }
+    .header h1{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 1024px){
+    .column{
+        flex: 1 1 45%;
+    }
+}
+
+@media(max-width: 1200px){
+    .column{
+        flex: 1 1 30%;
+    }
+}
+
+@font-face {
+    font-family: urt;
+    src: url(./Vampire\ Wars.ttf);
+}
+
+.header{
+    background-image: url(https://pa1.aminoapps.com/7397/2a719ea064349c65ce8aab270ce1dd897dfcd53dr1-500-281_00.gif);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    padding: 1px;
+    display: block;
+}
+
+h1{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 191, 255);
+}
+
+h2{
+    color: white;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #252425;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: url(https://cdn.pixabay.com/animation/2023/07/13/14/22/14-22-36-485_512.gif);
+    background-color: darkblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
